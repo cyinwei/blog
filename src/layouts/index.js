@@ -20,7 +20,7 @@ WebFont.load({
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Navbar />
+    <Navbar name={'cyinwei'}/>
     {children()}
   </div>
 )

@@ -95,14 +95,15 @@ const StyledNavbar = styled.nav`
     padding: 75px 0;
   `}
 `
-const Navbar = () => {
+const Navbar = ({name}) => {
   console.log(window.location.href)
   return (
     <Container>
       <StyledNavbar>
-        <StyledLogo to="/">charlie</StyledLogo>
+        <StyledLogo to="/">{name}</StyledLogo>
         <StyledLink to="/blog">blog</StyledLink>
         <StyledLink to="/projects">projects</StyledLink>
+        <StyledLink to="/about">about</StyledLink>
       </StyledNavbar> 
     </Container>
   )
