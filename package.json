@@ -6,7 +6,11 @@
   "dependencies": {
     "gatsby": "^1.9.144",
     "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-styled-components": "^2.0.4",
+    "react-feather": "^1.0.8",
+    "styled-components": "^2.3.3",
+    "webfontloader": "^1.6.28"
   },
   "keywords": [
     "gatsby"
