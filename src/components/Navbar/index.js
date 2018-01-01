@@ -96,7 +96,7 @@ const StyledNavbar = styled.nav`
   `}
 `
 const Navbar = ({name}) => {
-  console.log(window.location.href)
+  // console.log(window.location.href)
   return (
     <Container>
       <StyledNavbar>
