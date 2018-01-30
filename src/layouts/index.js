@@ -22,7 +22,7 @@ if (typeof window !== "undefined") {
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Navbar name={'cyinwei'}/>
+    <Navbar name={'charlie'}/>
     {children()}
   </div>
 )
